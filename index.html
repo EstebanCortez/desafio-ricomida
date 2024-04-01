@@ -18,7 +18,7 @@
 
   <header>
 
-    <nav class="navbar navbar-expand-lg fixed top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,14 +59,15 @@
 
   </header>
 
-  <section class="quienes-somos container">
+  <section class="quienes-somos container bg-black">
 
-    <h3 class="text-center">¿QUIÉNES SOMOS?</h3>
+    <h3 class="text-center text-white">¿QUIÉNES SOMOS?</h3>
 
-    <div>
-      
-      <i class="fa-solid fa-plane"></i>    
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    <div class="text-white">
+      <div class="container bg-info">
+        <i class="fa-solid fa-plane"></i> 
+      </div>   
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut
       consequat semper viverra. Rhoncus aenean vel elit scelerisque mauris 
       pellentesque pulvinar pellentesque. Lacus luctus accumsan tortor posuere 
@@ -80,8 +81,8 @@
     </div>
 
     <div>
-        
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut
       consequat semper viverra. Rhoncus aenean vel elit scelerisque mauris 
       pellentesque pulvinar pellentesque. Lacus luctus accumsan tortor posuere 
@@ -91,14 +92,17 @@
       quam viverra orci sagittis eu volutpat odio. Mi eget mauris pharetra et ultrices
       neque. Nec nam aliquam sem et tortor consequat id porta nibh. Euismod elementum
       nisi quis eleifend quam adipiscing vitae proin.</p>
+      <div class="container bg-info text-white">
       <i class="fa-solid fa-mountain"></i>
+      </div>  
       
     </div>
 
     <div>
-      
-      <i class="fa-solid fa-route"></i>   
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      <div class="container bg-info text-white">
+        <i class="fa-solid fa-route"></i>  
+      </div> 
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Tortor posuere ac ut
       consequat semper viverra. Rhoncus aenean vel elit scelerisque mauris 
       pellentesque pulvinar pellentesque. Lacus luctus accumsan tortor posuere 
@@ -115,32 +119,32 @@
 
   <section class="destacados">
 
-    <div class="row justify-content-center gap-3 py-2">
+    <div class="row justify-content-center gap-3 py-2 bg-black text-white">
 
       <h3 class="text-center">Destacados</h3>
 
-      <div class="card" style="width: 15rem;">
+      <div class="card bg-info text-white" style="width: 15rem;">
         <img src="assets/img/card1.jpg" class="card-img-top" alt="lago">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 15rem;">
+      <div class="card bg-info text-white" style="width: 15rem;">
         <img src="assets/img/card2.jpg" class="card-img-top" alt="montañas">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 15rem;">
+      <div class="card bg-info text-white" style="width: 15rem;">
         <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 15rem;">
+      <div class="card bg-info text-white" style="width: 15rem;">
         <img src="assets/img/card4.jpg" class="card-img-top" alt="selva">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -151,17 +155,23 @@
 
   </section>
 
-  <section class="contactos">
+  <section class="contactos bg-black text-white">
 
     <h3 class="text-center">Contacto</h3>
 
     <div class="mb-3">
-      <label for="formGroupExampleInput" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="formGroupExampleInput">
+      <label for="exampleFormControlInput1" class="form-label">Nombre Completo</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
     </div>
+
     <div class="mb-3">
-      <label for="formGroupExampleInput2" class="form-label">Correo Electronico</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2">
+      <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
     <button type="button" class="btn btn-info">Enviar</button>
@@ -169,13 +179,15 @@
 
   </section>
 
-  <footer>
+  <footer class="bg-info">
     <div class="container">
-      <h3>VIAJES CHILE</h3>
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-square-x-twitter"></i>
-      <i class="fa-brands fa-facebook"></i>
+      <h3 class="text-white">VIAJES CHILE</h3>
+      <div class="logos">
+        <i class="fa-brands fa-github text-white"></i>
+        <i class="fa-brands fa-linkedin text-white"></i>
+        <i class="fa-brands fa-square-x-twitter text-white"></i>
+        <i class="fa-brands fa-facebook text-white"></i>
+      </div>
     </div>
   </footer>
 
@@ -184,6 +196,6 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="assets/js/scrypt.js"></script>    
+<script src="assets/js/script.js"></script>    
 </body>
 </html>

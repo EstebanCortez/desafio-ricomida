@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.card img{
+    size: 40px;
+}
+
+.contactos div{
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+button{
+    margin-bottom: 50px;
+    margin-left:30px;
+}
