@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 .navbar-brand{
@@ -24,4 +25,8 @@
 button{
     margin-bottom: 50px;
     margin-left:30px;
+}
+
+footer{
+    display:flex;
 }
